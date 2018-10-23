@@ -1,3 +1,4 @@
+# I have generated two list of genes, one using limma and the other was generated directly in Nsolver software, the aim of this venn diagram is to show overlad between the gene lists
 install.packages("VennDiagram")
 library(VennDiagram)
 limma <- read.csv("genesusinglimma.csv", stringsAsFactors = F)
